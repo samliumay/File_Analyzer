@@ -62,4 +62,4 @@ def lookForMails_in_file(file_content):
 print("Hello, Please enter the file location:")
 file_location = input("File location:")
 file_content = read_file(file_location)
-lookForMails_in_file(file_content)x
+lookForMails_in_file(file_content)
