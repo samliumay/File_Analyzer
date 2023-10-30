@@ -9,8 +9,9 @@
 
 ## Future skills of the program 
 - Will able to detect all the Pll's at the future.
-- Will have an interface.
-- Will be an exe version of platform with and without an interface.
+- Will have an interface based on newly UX/UI design strategies. 
+- Will be an exe versions of platform of the version with interface.
+- Will be an exe versions of platform of the version without interface. (Will be used by cmd)
 
 ## How to use?
 ### Way 1
