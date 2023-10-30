@@ -13,7 +13,7 @@
 - Will be an exe version of platform with and without an interface.
 
 ## How to use?
-###Way 1
+### Way 1
 -Firstly clone the project.
 ```
 git clone https://github.com/samliumay/File_Analyzer.git
@@ -25,12 +25,12 @@ Example:
 Hello, Please enter the file location
 File location:C:\Users\Desktop\example.txt
 ```
-###Way2
+### Way2
 ```
 Will be available at the future
 ```
 
-###Notes and Warnings
+### Notes and Warnings
 - Be aware of that you need to install the spesific packages before using the code. All the packages should be installed. 
 ```
 import os
