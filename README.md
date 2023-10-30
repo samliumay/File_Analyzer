@@ -40,7 +40,11 @@ import PyPDF2
 import docx
 import openpyxl
 ```
-You can install the packages with 
+- You can install the packages with 
 ```
 pip install (a package that you need)
 ```
+
+### Contact
+- If you have any issues, please send me an e-mail samliumay965@gmail.com
+
