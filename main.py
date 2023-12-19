@@ -99,7 +99,6 @@ def lookForPhoneNumbers_in_file(file_content):
 
 
 # Main program
-<<<<<<< HEAD
 if __name__ == "__main__":
     print("Hello, Please enter the file location:")
     file_location = input("File location:")
@@ -109,9 +108,3 @@ if __name__ == "__main__":
     lookForSurnames_in_file(file_content)
     lookForRankings_in_file(file_content)
     lookForPhoneNumbers_in_file(file_content)
-=======
-print("Hello, Please enter the file location:")
-file_location = input("File location:")
-file_content = read_file(file_location)
-lookForMails_in_file(file_content)
->>>>>>> 12afd837070628421ede0cf7c130dc939d7c531b
