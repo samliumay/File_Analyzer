@@ -8,10 +8,9 @@
 -  Will return the number of mails that is available in the document.
 
 ## Future skills of the program 
-- Will able to detect all the Pll's at the future.
+- Program is able to detect all the Pll's at the future.
+- Program has an exe versions that you can direclty use.
 - Will have an interface based on newly UX/UI design strategies. 
-- Will be an exe versions of platform of the version with interface.
-- Will be an exe versions of platform of the version without interface. (Will be used by cmd)
 
 ## How to use?
 ### Way 1
