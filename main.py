@@ -56,10 +56,55 @@ def lookForMails_in_file(file_content):
         print("Mail-"+ str(x) +": "  +i)
         x = x + 1
 
-# Other functions can be added as needed.
+# Function to look for the names in the file content
+def lookForNames_in_file(file_content):
+    match = re.findall(r'name: (\w+)', file_content, flags=re.IGNORECASE)
+    x = 1
+    for i in match:
+        print("Name-"+ str(x) +": "  +i)
+        x = x + 1
+
+# Funtion to look for the surnames in the file content
+def lookForSurnames_in_file(file_content):
+    match = re.findall(r'surname: (\w+)', file_content, flags=re.IGNORECASE)
+    x = 1
+    for i in match:
+        print("Surname-"+ str(x) +": "  +i)
+        x = x + 1
+
+# Function to look to the rankings in the file content. 
+def lookForRankings_in_file(file_content):
+    match = re.findall(r'\b(OR[1-9]|OF[1-9]|A[1-7]|B[1-6]|C[1-6]|L[1-5]|G[1-9]|G1[0-9]|G2[0-4]|NIC|CIV|TEMP|Intern)\b', file_content,flags=re.IGNORECASE)
+    x = 1
+    for i in match:
+        print("Rankings-"+ str(x) +": "  +i)
+        x = x + 1
+
+#Function to look to the extentions in the file content.
+def lookForExtentions_in_file(file_content):
+    match = re.findall(r"\b\w+\.\w+\b", file_content)
+    x = 1
+    for i in match:
+        print("Extention-"+ str(x) +": "  +i)
+        x = x + 1
+
+#Function to look all the country codes in the document itself
+def lookForPhoneNumbers_in_file(file_content):
+    match = re.findall(r"\+?\d{1,3}[-\s]?\(?\d{1,4}\)?[-\s]?\d{6,10}", file_content)
+    x = 1
+    for i in match:
+        print("Phone Number-"+ str(x) +": "  +i)
+        x = x + 1 
+
+
 
 # Main program
-print("Hello, Please enter the file location:")
-file_location = input("File location:")
-file_content = read_file(file_location)
-lookForMails_in_file(file_content)
+if __name__ == "__main__":
+    print("Hello, Please enter the file location:")
+    file_location = input("File location:")
+    file_content = read_file(file_location)
+    lookForMails_in_file(file_content)
+    lookForNames_in_file(file_content)
+    lookForSurnames_in_file(file_content)
+    lookForRankings_in_file(file_content)
+    lookForPhoneNumbers_in_file(file_content)
