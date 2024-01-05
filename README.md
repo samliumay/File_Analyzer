@@ -6,11 +6,11 @@
 - Currenlty the program is able to find the mails in the spesific document.
 - .txt, .xls, .csv, .pdf is accapted as input.
 -  Will return the number of mails that is available in the document.
+- Program is able to detect all the Pll's at the future.
 
 ## Future skills of the program 
-- Program is able to detect all the Pll's at the future.
 - Program has an exe versions that you can direclty use.
-- Will have an interface based on newly UX/UI design strategies. 
+- Will have an interface based on newly UX/UI design strategies.
 
 ## How to use?
 ### Way 1
